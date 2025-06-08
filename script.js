@@ -2,7 +2,7 @@
 let questions = [];
 let current = 0;
 
-fetch('intrebari.json')
+fetch('./intrebari.json')
   .then(res => res.json())
   .then(data => {
     questions = data;
